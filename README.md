@@ -33,18 +33,12 @@ A Java-based face recognition system that uses eigenfaces for face recognition u
 
 ## Building the Project
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/prasadus92/face-recognition.git
-   cd face-recognition
-   ```
-
-2. Install Java 3D API:
+1. Install Java 3D API:
    - Download Java 3D API from Oracle's website
    - Install it on your system
    - Add the Java 3D libraries to your system's Java library path
 
-3. Set up MySQL:
+2. Set up MySQL:
    ```sql
    CREATE DATABASE face_recognition;
    USE face_recognition;
@@ -56,14 +50,14 @@ A Java-based face recognition system that uses eigenfaces for face recognition u
    );
    ```
 
-4. Install JAI libraries:
+3. Install JAI libraries:
    - Download JAI libraries from Oracle's website
    - Place the following files in the `lib` directory:
      - `jai_core.jar`
      - `jai_codec.jar`
      - `mlibwrapper_jai.jar`
 
-5. Build the project:
+4. Build the project:
    ```bash
    mvn clean install
    ```
